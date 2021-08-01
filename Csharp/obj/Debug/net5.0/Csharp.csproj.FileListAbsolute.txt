@@ -1,0 +1,16 @@
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\Csharp.exe
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\Csharp.deps.json
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\Csharp.runtimeconfig.json
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\Csharp.runtimeconfig.dev.json
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\Csharp.dll
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\ref\Csharp.dll
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\bin\Debug\net5.0\Csharp.pdb
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.csproj.AssemblyReference.cache
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.AssemblyInfoInputs.cache
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.AssemblyInfo.cs
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.csproj.CoreCompileInputs.cache
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.dll
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\ref\Csharp.dll
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.pdb
+C:\Users\dmram\OneDrive\Documents\I heart programming\DesignPatterns\Csharp\obj\Debug\net5.0\Csharp.genruntimeconfig.cache
