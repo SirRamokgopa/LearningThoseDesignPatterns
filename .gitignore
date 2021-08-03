@@ -1,2 +1,5 @@
 /.vscode
 /Java
+**/bin
+**/obj
+*.pdf

@@ -2,6 +2,7 @@
 using Stratergy;
 using Observer;
 using Decorator;
+using Factory;
 
 namespace Csharp
 {
@@ -9,7 +10,22 @@ namespace Csharp
     {
         public static void Main()
         {
+            // For the factory pattern
+            PizzaStore nyStore = new NYPizzaStore();
+            PizzaStore chicagoStore = new ChicagoPizzaStore();
+            PizzaStore caliStore = new CaliPizzaStore();
+
+            Pizza pizza = nyStore.orderPizza("cheese");
+            Console.WriteLine($"Order ready:\n{pizza.getName()}\n");
+
+            pizza = chicagoStore.orderPizza("cheese"); 
+            Console.WriteLine($"Order ready:\n{pizza.getName()}\n");
+            
+            pizza = caliStore.orderPizza("pepperoni"); 
+            Console.WriteLine($"Order ready:\n{pizza.getName()}\n");
+
             // For the decorator pattern
+            /*
             Beverage beverage = new Espressio();
             Console.WriteLine($"{beverage.getDescription()}\nCost: ${beverage.cost()}");
 
@@ -18,6 +34,7 @@ namespace Csharp
             beverage2 = new Mocha(beverage2);
             beverage2 = new Whip(beverage2);
             Console.WriteLine($"{beverage2.getDescription()}\nCost: ${beverage2.cost()}");
+            */
 
             // For the observer pattern
             /*
