@@ -1,3 +1,6 @@
+/*
+ * These are the concrete classes of PizzaStore
+ */
 using System;
 
 namespace Factory
@@ -28,7 +31,7 @@ namespace Factory
                 pizza = new PepperoniPizza(NYIngredientsFactory);
                 pizza.name = "NY Style Pepperoni Pizza";
             }
-            return null;
+            return pizza;
         }
     }
 
@@ -58,7 +61,7 @@ namespace Factory
                 pizza = new PepperoniPizza(ChicagoIngredientsFactory);
                 pizza.name = "Chicago Style Pepperoni Pizza";
             }
-            return null;
+            return pizza;
         }
     }
 
@@ -88,7 +91,7 @@ namespace Factory
                 pizza = new PepperoniPizza(caliIngredientsFactory);
                 pizza.name = "Chicago Style Pepperoni Pizza";
             }
-            return null;
+            return pizza;
         }
     }
 }

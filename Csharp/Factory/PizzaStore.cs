@@ -4,7 +4,10 @@
  * The concrete pizza stores are the instantiations of this factory class
  */
 using System;
-
+/*
+ * This is the abstract interface for PizzaStore-s
+ * PizzaStore is the factory that makes Pizza
+ */
 namespace Factory
 {
     public abstract class PizzaStore {

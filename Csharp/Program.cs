@@ -16,13 +16,13 @@ namespace Csharp
             PizzaStore caliStore = new CaliPizzaStore();
 
             Pizza pizza = nyStore.orderPizza("cheese");
-            Console.WriteLine($"Order ready:\n{pizza.getName()}\n");
+            Console.WriteLine($"Order ready:\n{pizza.name}\n");
 
             pizza = chicagoStore.orderPizza("cheese"); 
-            Console.WriteLine($"Order ready:\n{pizza.getName()}\n");
+            Console.WriteLine($"Order ready:\n{pizza.name}\n");
             
             pizza = caliStore.orderPizza("pepperoni"); 
-            Console.WriteLine($"Order ready:\n{pizza.getName()}\n");
+            Console.WriteLine($"Order ready:\n{pizza.name}\n");
 
             // For the decorator pattern
             /*

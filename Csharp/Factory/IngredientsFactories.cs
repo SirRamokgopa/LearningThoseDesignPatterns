@@ -1,3 +1,7 @@
+/*
+ * These are the concrete instantiations of PizzaIngredientsFactory
+ * They are the factories that make the ingredients for Pizza
+ */
 using System;
 using Ingredients;
 

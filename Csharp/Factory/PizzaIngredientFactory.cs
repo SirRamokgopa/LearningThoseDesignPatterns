@@ -1,3 +1,9 @@
+/*
+ * This is the interface for the IngredientFactory-s
+ * It's subclasses will be fatories that creates the ingredients
+ * for a Pizza
+ * (This makes the Abstract Factory Pattern)
+ */
 using System;
 using Ingredients;
 

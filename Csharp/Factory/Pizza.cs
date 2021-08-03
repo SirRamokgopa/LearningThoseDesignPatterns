@@ -1,7 +1,7 @@
 /*
  * This Pizza is the abstract class that all Pizzas will be made from
  * The PizzaStore class handles the creation of all pizza objects
- * The concrete pizza are the instantiations of this abstract class
+ * The concrete pizzas are the instantiations of this abstract class
  */
 using System;
 using System.Collections;
