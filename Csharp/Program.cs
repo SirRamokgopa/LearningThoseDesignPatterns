@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Threading;
 using Stratergy;
 using Observer;
 using Decorator;
 using Factory;
+using Singleton;
 
 namespace Csharp
 {
@@ -10,7 +12,31 @@ namespace Csharp
     {
         public static void Main()
         {
+            // For the singleton pattern
+            ChocolateBoiler coco = null;
+            ChocolateBoiler vanila = null;
+
+            void thread1() {
+                coco = ChocolateBoiler.GetBoiler();
+                Console.WriteLine("This was done");
+            }
+            void thread2() {
+                vanila = ChocolateBoiler.GetBoiler();
+                Console.WriteLine("And that");
+            }
+            Thread thready = new Thread(thread1);
+            Thread threadyy = new Thread(thread2);
+
+            thready.Start();
+            threadyy.Start();
+            
+            while (coco == null || vanila == null) {
+                Thread.Sleep(500);
+            }
+            Console.WriteLine(Equals(coco, vanila));
+
             // For the factory pattern
+            /*
             PizzaStore nyStore = new NYPizzaStore();
             PizzaStore chicagoStore = new ChicagoPizzaStore();
             PizzaStore caliStore = new CaliPizzaStore();
@@ -23,6 +49,7 @@ namespace Csharp
             
             pizza = caliStore.orderPizza("pepperoni"); 
             Console.WriteLine($"Order ready:\n{pizza.name}\n");
+            */
 
             // For the decorator pattern
             /*
